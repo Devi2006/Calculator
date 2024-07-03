@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar {
+    background-color:red;
+    width:20vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+}
+
+.sidebar nav {
+    padding:45px;
+}
+
+.sidebar nav li{
+    list-style:none;
+    font-size:30px;
+}
+
+.main {
+    background-color:yellow;
+    width:90vw;
+}
+
+.container {
+    display:flex;
+}
+
+.infoContainer {
+    background-color:magenta;
+    height:45vw;
+    width:80vw;
+    margin: 144px auto;
+    diswplay:flex;
+}
